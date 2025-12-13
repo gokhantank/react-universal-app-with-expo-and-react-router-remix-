@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "types": ["vite/client", "vitest"]
+  },
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "../../libs/shared/types/tsconfig.json"
+    },
+    {
+      "path": "../../libs/shared/schemas/tsconfig.json"
+    },
+    {
+      "path": "../../libs/shared/stores/tsconfig.json"
+    },
+    {
+      "path": "../../libs/shared/query/tsconfig.json"
+    },
+    {
+      "path": "../../libs/shared/utils/tsconfig.json"
+    }
+  ],
+  "extends": "../../tsconfig.base.json"
+}

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "composite": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2022",
+    "jsx": "react-jsx",
+    "paths": {
+      "@heelix/shared/types": ["libs/shared/types/src/index.ts"],
+      "@heelix/shared/schemas": ["libs/shared/schemas/src/index.ts"],
+      "@heelix/shared/stores": ["libs/shared/stores/src/index.ts"],
+      "@heelix/shared/query": ["libs/shared/query/src/index.ts"],
+      "@heelix/shared/utils": ["libs/shared/utils/src/index.ts"]
+    }
+  },
+  "files": [],
+  "include": [],
+  "references": []
+}
+

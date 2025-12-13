@@ -1,0 +1,165 @@
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.427Z - Started listening on: /private/var/folders/cl/1jb6pq1175df03404f6pjq5h0000gp/T/fc4a11f75b85e629741b/d.sock
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.431Z - [WATCHER]: Subscribed to changes within: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo (native)
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.431Z - [NX-CONSOLE]: Pulling latest Nx (latest) to check console status...
+Fetching nx...
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.757Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.758Z - Established a connection. Number of open connections: 2
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.760Z - Closed a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.761Z - Received raw message of length 32
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.762Z - Received json message of type GET_NX_CONSOLE_STATUS
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.763Z - Serializing response for GET_NX_CONSOLE_STATUS message in json mode
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.763Z - Responding to GET_NX_CONSOLE_STATUS message
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.763Z - [REQUEST]: Responding to the client. handleGetNxConsoleStatus
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.764Z - Done responding to the client handleGetNxConsoleStatus
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.764Z - Handled json message GET_NX_CONSOLE_STATUS. Handling time: 1. Response time: 1.
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.793Z - Established a connection. Number of open connections: 2
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.793Z - Closed a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.803Z - Closed a connection. Number of open connections: 0
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.819Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.820Z - Closed a connection. Number of open connections: 0
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.821Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.882Z - Received raw message of length 32
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.882Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:12.882Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 41871 code loading' 7.849629
+Time for 'plugin worker 41873 code loading' 5.692087999999998
+Time for 'plugin worker 41872 code loading' 6.392443
+Time for 'plugin worker 41874 code loading' 7.5127159999999975
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.434Z - Time taken for 'Load Nx Plugin: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 685.7583160000001ms
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.448Z - Time taken for 'Load Nx Plugin: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/plugins/package-json' 700.4119339999999ms
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.475Z - Time taken for 'loadDefaultNxPlugins' 723.066303ms
+Time for 'nx/core/project-json:createNodes' 0.22862099999997554
+Time for 'nx/core/package-json:createNodes' 1.2396330000000262
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 9.168078000000037
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.490Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. unable to find tsconfig.base.json or tsconfig.json
+Error: unable to find tsconfig.base.json or tsconfig.json
+    at readTsConfigPaths (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:130:19)
+    at findNxProjectForImportPath (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:90:27)
+    at lookupLocalPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:81:27)
+    at resolveLocalNxPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:44:12)
+    at getPluginPathAndName (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:58:28)
+    at resolveNxPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:27:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async loadRemoteNxPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/isolation/plugin-pool.js:34:62)
+    at async /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/get-plugins.js:117:48
+    at async Promise.all (index 1)
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.490Z - Done responding to the client null
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.490Z - Started listening on: /private/var/folders/cl/1jb6pq1175df03404f6pjq5h0000gp/T/b7cd39f80d6d0833559e/d.sock
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.497Z - [WATCHER]: Subscribed to changes within: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo (native)
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.498Z - [NX-CONSOLE]: Pulling latest Nx (latest) to check console status...
+Fetching nx...
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.860Z - [WATCHER]: .nx/workspace-data/d/daemon.log was modified
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.861Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.862Z - Established a connection. Number of open connections: 2
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.863Z - Closed a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.864Z - Established a connection. Number of open connections: 2
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.864Z - Closed a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.865Z - Received raw message of length 32
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.865Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:13.866Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 41884 code loading' 6.706739999999996
+Time for 'plugin worker 41882 code loading' 7.176562000000004
+Time for 'plugin worker 41883 code loading' 6.617999999999995
+Time for 'plugin worker 41885 code loading' 5.532854999999998
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:14.366Z - Time taken for 'Load Nx Plugin: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/plugins/package-json' 512.975ms
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:14.433Z - Time taken for 'Load Nx Plugin: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 579.812184ms
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:14.459Z - Time taken for 'loadDefaultNxPlugins' 594.265341ms
+Time for 'nx/core/project-json:createNodes' 0.2306499999999687
+Time for 'nx/core/package-json:createNodes' 1.1131520000000137
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 4.214507000000026
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:14.467Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. unable to find tsconfig.base.json or tsconfig.json
+Error: unable to find tsconfig.base.json or tsconfig.json
+    at readTsConfigPaths (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:130:19)
+    at findNxProjectForImportPath (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:90:27)
+    at lookupLocalPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:81:27)
+    at resolveLocalNxPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:44:12)
+    at getPluginPathAndName (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:58:28)
+    at resolveNxPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:27:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async loadRemoteNxPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/isolation/plugin-pool.js:34:62)
+    at async /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/get-plugins.js:117:48
+    at async Promise.all (index 1)
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:14.468Z - Done responding to the client null
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:16.916Z - Started listening on: /private/var/folders/cl/1jb6pq1175df03404f6pjq5h0000gp/T/7d4d70af8dd6a31ba4ca/d.sock
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:16.921Z - [WATCHER]: Subscribed to changes within: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo (native)
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:16.922Z - [NX-CONSOLE]: Pulling latest Nx (latest) to check console status...
+Fetching nx...
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.312Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.313Z - Established a connection. Number of open connections: 2
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.315Z - Closed a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.318Z - Received raw message of length 32
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.318Z - Received json message of type GET_NX_CONSOLE_STATUS
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.319Z - Serializing response for GET_NX_CONSOLE_STATUS message in json mode
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.319Z - Responding to GET_NX_CONSOLE_STATUS message
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.319Z - [REQUEST]: Responding to the client. handleGetNxConsoleStatus
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.320Z - Done responding to the client handleGetNxConsoleStatus
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.320Z - Handled json message GET_NX_CONSOLE_STATUS. Handling time: 0. Response time: 1.
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.351Z - Established a connection. Number of open connections: 2
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.351Z - Closed a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.364Z - Closed a connection. Number of open connections: 0
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.388Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.393Z - Closed a connection. Number of open connections: 0
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.393Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.394Z - Received raw message of length 32
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.394Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.395Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 41924 code loading' 6.793951000000007
+Time for 'plugin worker 41927 code loading' 8.646785999999992
+Time for 'plugin worker 41925 code loading' 9.19557900000001
+Time for 'plugin worker 41926 code loading' 7.171199000000001
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:18.720Z - Time taken for 'Load Nx Plugin: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/plugins/js' 1421.480084ms
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:18.722Z - Started listening on: /private/var/folders/cl/1jb6pq1175df03404f6pjq5h0000gp/T/3b9f93bb715420b2f774/d.sock
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:18.728Z - Closed a connection. Number of open connections: 0
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:18.728Z - [WATCHER]: Stopping the watcher for /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo (sources)
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:18.728Z - [WATCHER]: Stopping the watcher for /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo (outputs)
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:18.729Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:18.732Z - [WATCHER]: Subscribed to changes within: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo (native)
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:18.750Z - [NX-CONSOLE]: Pulling latest Nx (latest) to check console status...
+Fetching nx...
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:19.767Z - [WATCHER]: .nx/workspace-data/d/daemon.log was modified
+Time for 'plugin worker 41949 code loading' 12.463128999999995
+Time for 'plugin worker 41951 code loading' 20.68826200000001
+Time for 'plugin worker 41950 code loading' 230.00964000000002
+Time for 'plugin worker 41948 code loading' 155.397339
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:20.957Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:20.958Z - Established a connection. Number of open connections: 2
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:20.959Z - Closed a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:20.962Z - Received raw message of length 192
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:20.962Z - Received json message of type MULTI_GLOB
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.003Z - Serializing response for MULTI_GLOB message in json mode
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.003Z - Responding to MULTI_GLOB message
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.004Z - [REQUEST]: Responding to the client. handleMultiGlob
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.004Z - Done responding to the client handleMultiGlob
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.004Z - Handled json message MULTI_GLOB. Handling time: 40. Response time: 1.
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.017Z - Received raw message of length 32
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.017Z - Received json message of type GET_CONTEXT_FILE_DATA
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.018Z - Serializing response for GET_CONTEXT_FILE_DATA message in json mode
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.018Z - Responding to GET_CONTEXT_FILE_DATA message
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.018Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.018Z - Done responding to the client handleContextFileData
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.018Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.019Z - Closed a connection. Number of open connections: 0
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.374Z - Time taken for 'Load Nx Plugin: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 1636.9195250000002ms
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.379Z - [WATCHER]: .git/index.lock was deleted
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.408Z - Time taken for 'Load Nx Plugin: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/plugins/package-json' 1671.318561ms
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:21.613Z - Time taken for 'loadDefaultNxPlugins' 1831.734829ms
+Time for 'nx/core/project-json:createNodes' 0.23580100000003767
+Time for 'nx/core/package-json:createNodes' 1.046677999999929
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 4.472995000000083
+/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:130
+            throw new Error('unable to find tsconfig.base.json or tsconfig.json');
+                  ^
+
+Error: unable to find tsconfig.base.json or tsconfig.json
+    at readTsConfigPaths (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:130:19)
+    at findNxProjectForImportPath (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:90:27)
+    at lookupLocalPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:81:27)
+    at resolveLocalNxPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:44:12)
+    at getPluginPathAndName (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:58:28)
+    at resolveNxPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/resolve-plugin.js:27:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async loadRemoteNxPlugin (/Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/isolation/plugin-pool.js:34:62)
+    at async /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/project-graph/plugins/get-plugins.js:117:48
+    at async Promise.all (index 1)
+
+Node.js v25.2.1

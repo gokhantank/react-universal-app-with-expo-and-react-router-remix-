@@ -1,0 +1,26 @@
+Daemon process terminated and closed the connection
+
+Messages from the log:
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.319Z - [REQUEST]: Responding to the client. handleGetNxConsoleStatus
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.320Z - Done responding to the client handleGetNxConsoleStatus
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.320Z - Handled json message GET_NX_CONSOLE_STATUS. Handling time: 0. Response time: 1.
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.351Z - Established a connection. Number of open connections: 2
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.351Z - Closed a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.364Z - Closed a connection. Number of open connections: 0
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.388Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.393Z - Closed a connection. Number of open connections: 0
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.393Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.394Z - Received raw message of length 32
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.394Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:17.395Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 41924 code loading' 6.793951000000007
+Time for 'plugin worker 41927 code loading' 8.646785999999992
+Time for 'plugin worker 41925 code loading' 9.19557900000001
+Time for 'plugin worker 41926 code loading' 7.171199000000001
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:18.720Z - Time taken for 'Load Nx Plugin: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/node_modules/nx/src/plugins/js' 1421.480084ms
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:18.722Z - Started listening on: /private/var/folders/cl/1jb6pq1175df03404f6pjq5h0000gp/T/3b9f93bb715420b2f774/d.sock
+[NX v22.2.3 Daemon Server] - 2025-12-13T09:58:18.728Z - Closed a connection. Number of open connections: 0
+
+
+
+More information: /Users/gokhan.tank/Documents/dev/heelix-react-router-and-expo/.nx/workspace-data/d/daemon.log
