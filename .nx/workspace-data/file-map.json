@@ -87,298 +87,6 @@
   ],
   "fileMap": {
     "projectFileMap": {
-      "shared-stores": [
-        {
-          "file": "libs/shared/stores/project.json",
-          "hash": "13951266066426948765"
-        },
-        {
-          "file": "libs/shared/stores/src/index.ts",
-          "hash": "3534894412741089783"
-        },
-        {
-          "file": "libs/shared/stores/src/stores.ts",
-          "hash": "7898340986470788",
-          "deps": [
-            "npm:zustand"
-          ]
-        },
-        {
-          "file": "libs/shared/stores/tsconfig.json",
-          "hash": "5038582023651900826"
-        },
-        {
-          "file": "libs/shared/stores/tsconfig.lib.json",
-          "hash": "7987555445284058786"
-        }
-      ],
-      "shared-query": [
-        {
-          "file": "libs/shared/query/project.json",
-          "hash": "16641446148279256012"
-        },
-        {
-          "file": "libs/shared/query/src/hooks.ts",
-          "hash": "14855922898783900"
-        },
-        {
-          "file": "libs/shared/query/src/index.ts",
-          "hash": "14018025303967305079"
-        },
-        {
-          "file": "libs/shared/query/src/query-client.ts",
-          "hash": "7162016117493105715",
-          "deps": [
-            "npm:@tanstack/react-query"
-          ]
-        },
-        {
-          "file": "libs/shared/query/tsconfig.json",
-          "hash": "5038582023651900826"
-        },
-        {
-          "file": "libs/shared/query/tsconfig.lib.json",
-          "hash": "5040293351321327388"
-        }
-      ],
-      "shared-schemas": [
-        {
-          "file": "libs/shared/schemas/project.json",
-          "hash": "16606207250731750024"
-        },
-        {
-          "file": "libs/shared/schemas/src/index.ts",
-          "hash": "91490120227403527"
-        },
-        {
-          "file": "libs/shared/schemas/src/schemas.ts",
-          "hash": "11593421044580461035",
-          "deps": [
-            "npm:zod"
-          ]
-        },
-        {
-          "file": "libs/shared/schemas/tsconfig.json",
-          "hash": "5038582023651900826"
-        },
-        {
-          "file": "libs/shared/schemas/tsconfig.lib.json",
-          "hash": "11596439595430298983"
-        }
-      ],
-      "shared-types": [
-        {
-          "file": "libs/shared/types/project.json",
-          "hash": "16604756709234869613"
-        },
-        {
-          "file": "libs/shared/types/src/index.ts",
-          "hash": "4367482853312510899"
-        },
-        {
-          "file": "libs/shared/types/src/types.ts",
-          "hash": "18427411000695679074"
-        },
-        {
-          "file": "libs/shared/types/tsconfig.json",
-          "hash": "5038582023651900826"
-        },
-        {
-          "file": "libs/shared/types/tsconfig.lib.json",
-          "hash": "11596439595430298983"
-        }
-      ],
-      "shared-utils": [
-        {
-          "file": "libs/shared/utils/project.json",
-          "hash": "14163677290619208905"
-        },
-        {
-          "file": "libs/shared/utils/src/index.ts",
-          "hash": "5597340546658959944"
-        },
-        {
-          "file": "libs/shared/utils/src/team-data.ts",
-          "hash": "10172327404960509632"
-        },
-        {
-          "file": "libs/shared/utils/src/utils.ts",
-          "hash": "7463119896200221363"
-        },
-        {
-          "file": "libs/shared/utils/tsconfig.json",
-          "hash": "5038582023651900826"
-        },
-        {
-          "file": "libs/shared/utils/tsconfig.lib.json",
-          "hash": "11596439595430298983"
-        }
-      ],
-      "web": [
-        {
-          "file": "apps/web/eslint.config.mjs",
-          "hash": "8789163670399984295",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/web/index.html",
-          "hash": "10230306946906184829"
-        },
-        {
-          "file": "apps/web/postcss.config.js",
-          "hash": "2759402739052110475"
-        },
-        {
-          "file": "apps/web/project.json",
-          "hash": "11402676737920401422"
-        },
-        {
-          "file": "apps/web/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/web/src/app/app.spec.tsx",
-          "hash": "274303103025024512",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/web/src/app/app.tsx",
-          "hash": "15142478001498413444"
-        },
-        {
-          "file": "apps/web/src/app/nx-welcome.tsx",
-          "hash": "2348102959109701629"
-        },
-        {
-          "file": "apps/web/src/app/root.tsx",
-          "hash": "16784025577439731499",
-          "deps": [
-            "npm:react-router",
-            "npm:@tanstack/react-query",
-            "shared-query"
-          ]
-        },
-        {
-          "file": "apps/web/src/app/routes.tsx",
-          "hash": "16431656874393932035",
-          "deps": [
-            "npm:react-router"
-          ]
-        },
-        {
-          "file": "apps/web/src/app/routes/dashboard.tsx",
-          "hash": "6456894290989572533",
-          "deps": [
-            "npm:react",
-            "shared-utils"
-          ]
-        },
-        {
-          "file": "apps/web/src/app/routes/factor-analysis.tsx",
-          "hash": "6958950445377667291",
-          "deps": [
-            "npm:react",
-            "shared-utils"
-          ]
-        },
-        {
-          "file": "apps/web/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/web/src/components/Navigation.tsx",
-          "hash": "13404278381001115153",
-          "deps": [
-            "npm:react",
-            "npm:react-router"
-          ]
-        },
-        {
-          "file": "apps/web/src/components/TakeActionModal.tsx",
-          "hash": "16167659073315857474",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "apps/web/src/main.tsx",
-          "hash": "522399544907609605",
-          "deps": [
-            "npm:react",
-            "npm:react-dom",
-            "npm:react-router"
-          ]
-        },
-        {
-          "file": "apps/web/src/styles.css",
-          "hash": "9540575453073076294"
-        },
-        {
-          "file": "apps/web/tailwind.config.js",
-          "hash": "13090734457927965885",
-          "deps": [
-            "npm:@nx/react"
-          ]
-        },
-        {
-          "file": "apps/web/tsconfig.app.json",
-          "hash": "18007131220440198237"
-        },
-        {
-          "file": "apps/web/tsconfig.json",
-          "hash": "9571613200825910467"
-        },
-        {
-          "file": "apps/web/tsconfig.spec.json",
-          "hash": "2374680567064402239"
-        },
-        {
-          "file": "apps/web/vite.config.mts",
-          "hash": "4592254908429983394",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite"
-          ]
-        }
-      ],
-      "web-e2e": [
-        {
-          "file": "apps/web-e2e/eslint.config.mjs",
-          "hash": "1172734138943286526",
-          "deps": [
-            "npm:eslint-plugin-playwright"
-          ]
-        },
-        {
-          "file": "apps/web-e2e/playwright.config.ts",
-          "hash": "3014261020544714599",
-          "deps": [
-            "npm:@playwright/test",
-            "npm:@nx/playwright",
-            "npm:@nx/devkit"
-          ]
-        },
-        {
-          "file": "apps/web-e2e/project.json",
-          "hash": "236892884893949848"
-        },
-        {
-          "file": "apps/web-e2e/src/example.spec.ts",
-          "hash": "16019101014373124625",
-          "deps": [
-            "npm:@playwright/test"
-          ]
-        },
-        {
-          "file": "apps/web-e2e/tsconfig.json",
-          "hash": "18107275616570252607"
-        }
-      ],
       "mobile": [
         {
           "file": "apps/mobile/.babelrc.js",
@@ -521,6 +229,298 @@
         {
           "file": "apps/mobile/tsconfig.json",
           "hash": "4599041753810548382"
+        }
+      ],
+      "shared-types": [
+        {
+          "file": "libs/shared/types/project.json",
+          "hash": "16604756709234869613"
+        },
+        {
+          "file": "libs/shared/types/src/index.ts",
+          "hash": "4367482853312510899"
+        },
+        {
+          "file": "libs/shared/types/src/types.ts",
+          "hash": "18427411000695679074"
+        },
+        {
+          "file": "libs/shared/types/tsconfig.json",
+          "hash": "5038582023651900826"
+        },
+        {
+          "file": "libs/shared/types/tsconfig.lib.json",
+          "hash": "11596439595430298983"
+        }
+      ],
+      "web-e2e": [
+        {
+          "file": "apps/web-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526",
+          "deps": [
+            "npm:eslint-plugin-playwright"
+          ]
+        },
+        {
+          "file": "apps/web-e2e/playwright.config.ts",
+          "hash": "3014261020544714599",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/web-e2e/project.json",
+          "hash": "236892884893949848"
+        },
+        {
+          "file": "apps/web-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/web-e2e/tsconfig.json",
+          "hash": "18107275616570252607"
+        }
+      ],
+      "shared-utils": [
+        {
+          "file": "libs/shared/utils/project.json",
+          "hash": "14163677290619208905"
+        },
+        {
+          "file": "libs/shared/utils/src/index.ts",
+          "hash": "5597340546658959944"
+        },
+        {
+          "file": "libs/shared/utils/src/team-data.ts",
+          "hash": "10172327404960509632"
+        },
+        {
+          "file": "libs/shared/utils/src/utils.ts",
+          "hash": "7463119896200221363"
+        },
+        {
+          "file": "libs/shared/utils/tsconfig.json",
+          "hash": "5038582023651900826"
+        },
+        {
+          "file": "libs/shared/utils/tsconfig.lib.json",
+          "hash": "11596439595430298983"
+        }
+      ],
+      "shared-query": [
+        {
+          "file": "libs/shared/query/project.json",
+          "hash": "16641446148279256012"
+        },
+        {
+          "file": "libs/shared/query/src/hooks.ts",
+          "hash": "14855922898783900"
+        },
+        {
+          "file": "libs/shared/query/src/index.ts",
+          "hash": "14018025303967305079"
+        },
+        {
+          "file": "libs/shared/query/src/query-client.ts",
+          "hash": "7162016117493105715",
+          "deps": [
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "libs/shared/query/tsconfig.json",
+          "hash": "5038582023651900826"
+        },
+        {
+          "file": "libs/shared/query/tsconfig.lib.json",
+          "hash": "5040293351321327388"
+        }
+      ],
+      "shared-schemas": [
+        {
+          "file": "libs/shared/schemas/project.json",
+          "hash": "16606207250731750024"
+        },
+        {
+          "file": "libs/shared/schemas/src/index.ts",
+          "hash": "91490120227403527"
+        },
+        {
+          "file": "libs/shared/schemas/src/schemas.ts",
+          "hash": "11593421044580461035",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/shared/schemas/tsconfig.json",
+          "hash": "5038582023651900826"
+        },
+        {
+          "file": "libs/shared/schemas/tsconfig.lib.json",
+          "hash": "11596439595430298983"
+        }
+      ],
+      "web": [
+        {
+          "file": "apps/web/eslint.config.mjs",
+          "hash": "8789163670399984295",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/web/index.html",
+          "hash": "10230306946906184829"
+        },
+        {
+          "file": "apps/web/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "apps/web/project.json",
+          "hash": "11402676737920401422"
+        },
+        {
+          "file": "apps/web/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/web/src/app/app.spec.tsx",
+          "hash": "274303103025024512",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/app.tsx",
+          "hash": "15142478001498413444"
+        },
+        {
+          "file": "apps/web/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "apps/web/src/app/root.tsx",
+          "hash": "16784025577439731499",
+          "deps": [
+            "npm:react-router",
+            "npm:@tanstack/react-query",
+            "shared-query"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/routes.tsx",
+          "hash": "16431656874393932035",
+          "deps": [
+            "npm:react-router"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/routes/dashboard.tsx",
+          "hash": "6456894290989572533",
+          "deps": [
+            "npm:react",
+            "shared-utils"
+          ]
+        },
+        {
+          "file": "apps/web/src/app/routes/factor-analysis.tsx",
+          "hash": "6958950445377667291",
+          "deps": [
+            "npm:react",
+            "shared-utils"
+          ]
+        },
+        {
+          "file": "apps/web/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/web/src/components/Navigation.tsx",
+          "hash": "13404278381001115153",
+          "deps": [
+            "npm:react",
+            "npm:react-router"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/TakeActionModal.tsx",
+          "hash": "16167659073315857474",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/main.tsx",
+          "hash": "522399544907609605",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router"
+          ]
+        },
+        {
+          "file": "apps/web/src/styles.css",
+          "hash": "9540575453073076294"
+        },
+        {
+          "file": "apps/web/tailwind.config.js",
+          "hash": "13090734457927965885",
+          "deps": [
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "apps/web/tsconfig.app.json",
+          "hash": "18007131220440198237"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "9571613200825910467"
+        },
+        {
+          "file": "apps/web/tsconfig.spec.json",
+          "hash": "2374680567064402239"
+        },
+        {
+          "file": "apps/web/vite.config.mts",
+          "hash": "4592254908429983394",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "shared-stores": [
+        {
+          "file": "libs/shared/stores/project.json",
+          "hash": "13951266066426948765"
+        },
+        {
+          "file": "libs/shared/stores/src/index.ts",
+          "hash": "3534894412741089783"
+        },
+        {
+          "file": "libs/shared/stores/src/stores.ts",
+          "hash": "7898340986470788",
+          "deps": [
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "libs/shared/stores/tsconfig.json",
+          "hash": "5038582023651900826"
+        },
+        {
+          "file": "libs/shared/stores/tsconfig.lib.json",
+          "hash": "7987555445284058786"
         }
       ]
     },
