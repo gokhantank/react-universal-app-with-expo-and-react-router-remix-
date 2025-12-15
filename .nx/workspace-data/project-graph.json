@@ -17,24 +17,18 @@
             },
             "cache": true,
             "inputs": [
-              "production",
+              "{workspaceRoot}/tsconfig.base.json",
+              "{projectRoot}/tsconfig.json",
+              "{projectRoot}/tsconfig.lib.json",
+              "{projectRoot}/src/**/*.ts",
+              "!{projectRoot}/jest.config.ts",
+              "!{projectRoot}/src/**/*.spec.ts",
+              "!{projectRoot}/src/**/*.test.ts",
               "^production"
             ],
             "outputs": [
-              "{projectRoot}/**/*.js",
-              "{projectRoot}/**/*.cjs",
-              "{projectRoot}/**/*.mjs",
-              "{projectRoot}/**/*.jsx",
-              "{projectRoot}/**/*.js.map",
-              "{projectRoot}/**/*.jsx.map",
-              "{projectRoot}/**/*.d.ts",
-              "{projectRoot}/**/*.d.cts",
-              "{projectRoot}/**/*.d.mts",
-              "{projectRoot}/**/*.d.ts.map",
-              "{projectRoot}/**/*.d.cts.map",
-              "{projectRoot}/**/*.d.mts.map",
-              "{projectRoot}/tsconfig.tsbuildinfo",
               "{workspaceRoot}/dist/out-tsc/**/*.d.ts",
+              "{workspaceRoot}/dist/out-tsc/**/*.d.ts.map",
               "{workspaceRoot}/dist/out-tsc/tsconfig.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -166,24 +160,19 @@
             },
             "cache": true,
             "inputs": [
-              "production",
+              "{workspaceRoot}/tsconfig.base.json",
+              "{projectRoot}/tsconfig.json",
+              "{projectRoot}/tsconfig.lib.json",
+              "{projectRoot}/src/**/*.ts",
+              "{projectRoot}/src/**/*.tsx",
+              "!{projectRoot}/jest.config.ts",
+              "!{projectRoot}/src/**/*.spec.ts",
+              "!{projectRoot}/src/**/*.test.ts",
               "^production"
             ],
             "outputs": [
-              "{projectRoot}/**/*.js",
-              "{projectRoot}/**/*.cjs",
-              "{projectRoot}/**/*.mjs",
-              "{projectRoot}/**/*.jsx",
-              "{projectRoot}/**/*.js.map",
-              "{projectRoot}/**/*.jsx.map",
-              "{projectRoot}/**/*.d.ts",
-              "{projectRoot}/**/*.d.cts",
-              "{projectRoot}/**/*.d.mts",
-              "{projectRoot}/**/*.d.ts.map",
-              "{projectRoot}/**/*.d.cts.map",
-              "{projectRoot}/**/*.d.mts.map",
-              "{projectRoot}/tsconfig.tsbuildinfo",
               "{workspaceRoot}/dist/out-tsc/**/*.d.ts",
+              "{workspaceRoot}/dist/out-tsc/**/*.d.ts.map",
               "{workspaceRoot}/dist/out-tsc/tsconfig.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -315,7 +304,14 @@
             },
             "cache": true,
             "inputs": [
-              "production",
+              "{workspaceRoot}/tsconfig.base.json",
+              "{projectRoot}/tsconfig.json",
+              "{projectRoot}/tsconfig.lib.json",
+              "{projectRoot}/src/**/*.ts",
+              "{projectRoot}/src/**/*.tsx",
+              "!{projectRoot}/jest.config.ts",
+              "!{projectRoot}/src/**/*.spec.ts",
+              "!{projectRoot}/src/**/*.test.ts",
               "^production"
             ],
             "outputs": [
@@ -462,24 +458,18 @@
             },
             "cache": true,
             "inputs": [
-              "production",
+              "{workspaceRoot}/tsconfig.base.json",
+              "{projectRoot}/tsconfig.json",
+              "{projectRoot}/tsconfig.lib.json",
+              "{projectRoot}/src/**/*.ts",
+              "!{projectRoot}/jest.config.ts",
+              "!{projectRoot}/src/**/*.spec.ts",
+              "!{projectRoot}/src/**/*.test.ts",
               "^production"
             ],
             "outputs": [
-              "{projectRoot}/**/*.js",
-              "{projectRoot}/**/*.cjs",
-              "{projectRoot}/**/*.mjs",
-              "{projectRoot}/**/*.jsx",
-              "{projectRoot}/**/*.js.map",
-              "{projectRoot}/**/*.jsx.map",
-              "{projectRoot}/**/*.d.ts",
-              "{projectRoot}/**/*.d.cts",
-              "{projectRoot}/**/*.d.mts",
-              "{projectRoot}/**/*.d.ts.map",
-              "{projectRoot}/**/*.d.cts.map",
-              "{projectRoot}/**/*.d.mts.map",
-              "{projectRoot}/tsconfig.tsbuildinfo",
               "{workspaceRoot}/dist/out-tsc/**/*.d.ts",
+              "{workspaceRoot}/dist/out-tsc/**/*.d.ts.map",
               "{workspaceRoot}/dist/out-tsc/tsconfig.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -611,24 +601,18 @@
             },
             "cache": true,
             "inputs": [
-              "production",
+              "{workspaceRoot}/tsconfig.base.json",
+              "{projectRoot}/tsconfig.json",
+              "{projectRoot}/tsconfig.lib.json",
+              "{projectRoot}/src/**/*.ts",
+              "!{projectRoot}/jest.config.ts",
+              "!{projectRoot}/src/**/*.spec.ts",
+              "!{projectRoot}/src/**/*.test.ts",
               "^production"
             ],
             "outputs": [
-              "{projectRoot}/**/*.js",
-              "{projectRoot}/**/*.cjs",
-              "{projectRoot}/**/*.mjs",
-              "{projectRoot}/**/*.jsx",
-              "{projectRoot}/**/*.js.map",
-              "{projectRoot}/**/*.jsx.map",
-              "{projectRoot}/**/*.d.ts",
-              "{projectRoot}/**/*.d.cts",
-              "{projectRoot}/**/*.d.mts",
-              "{projectRoot}/**/*.d.ts.map",
-              "{projectRoot}/**/*.d.cts.map",
-              "{projectRoot}/**/*.d.mts.map",
-              "{projectRoot}/tsconfig.tsbuildinfo",
               "{workspaceRoot}/dist/out-tsc/**/*.d.ts",
+              "{workspaceRoot}/dist/out-tsc/**/*.d.ts.map",
               "{workspaceRoot}/dist/out-tsc/tsconfig.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -759,11 +743,21 @@
             },
             "cache": true,
             "inputs": [
-              "production",
+              "{workspaceRoot}/tsconfig.base.json",
+              "{projectRoot}/tsconfig.json",
+              "{projectRoot}/**/*.ts",
+              "{projectRoot}/**/*.js",
+              "{projectRoot}/playwright.config.ts",
+              "{projectRoot}/src/**/*.spec.ts",
+              "{projectRoot}/src/**/*.spec.js",
+              "{projectRoot}/src/**/*.test.ts",
+              "{projectRoot}/src/**/*.test.js",
+              "{projectRoot}/src/**/*.d.ts",
               "^production"
             ],
             "outputs": [
               "{workspaceRoot}/dist/out-tsc/**/*.d.ts",
+              "{workspaceRoot}/dist/out-tsc/**/*.d.ts.map",
               "{workspaceRoot}/dist/out-tsc/tsconfig.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -859,7 +853,8 @@
             ],
             "outputs": [
               "{workspaceRoot}/dist/.playwright/apps/web-e2e/test-output",
-              "{workspaceRoot}/dist/.playwright/apps/web-e2e/playwright-report"
+              "{workspaceRoot}/dist/.playwright/apps/web-e2e/playwright-report",
+              "{workspaceRoot}/dist/.playwright/apps/web-e2e/blob-report"
             ],
             "executor": "nx:run-commands",
             "configurations": {},
@@ -870,7 +865,8 @@
               "cwd": "apps/web-e2e",
               "env": {
                 "PLAYWRIGHT_HTML_OUTPUT_DIR": "../../dist/.playwright/apps/web-e2e/playwright-report/src-example-spec-ts",
-                "PLAYWRIGHT_HTML_REPORT": "../../dist/.playwright/apps/web-e2e/playwright-report/src-example-spec-ts"
+                "PLAYWRIGHT_HTML_REPORT": "../../dist/.playwright/apps/web-e2e/playwright-report/src-example-spec-ts",
+                "PLAYWRIGHT_BLOB_OUTPUT_FILE": "../../dist/.playwright/apps/web-e2e/blob-report/src-example-spec-ts.zip"
               },
               "command": "playwright test src/example.spec.ts --output=../../dist/.playwright/apps/web-e2e/test-output/src-example-spec-ts"
             },
@@ -908,7 +904,8 @@
             ],
             "outputs": [
               "{workspaceRoot}/dist/.playwright/apps/web-e2e/test-output/src-example-spec-ts",
-              "{workspaceRoot}/dist/.playwright/apps/web-e2e/playwright-report/src-example-spec-ts"
+              "{workspaceRoot}/dist/.playwright/apps/web-e2e/playwright-report/src-example-spec-ts",
+              "{workspaceRoot}/dist/.playwright/apps/web-e2e/blob-report/src-example-spec-ts.zip"
             ],
             "executor": "nx:run-commands",
             "configurations": {},
@@ -928,7 +925,8 @@
             ],
             "outputs": [
               "{workspaceRoot}/dist/.playwright/apps/web-e2e/test-output",
-              "{workspaceRoot}/dist/.playwright/apps/web-e2e/playwright-report"
+              "{workspaceRoot}/dist/.playwright/apps/web-e2e/playwright-report",
+              "{workspaceRoot}/dist/.playwright/apps/web-e2e/blob-report"
             ],
             "dependsOn": [
               {
@@ -1021,7 +1019,26 @@
             },
             "cache": true,
             "inputs": [
-              "production",
+              "{projectRoot}/package.json",
+              "{workspaceRoot}/tsconfig.base.json",
+              "{projectRoot}/tsconfig.json",
+              "{projectRoot}/tsconfig.app.json",
+              "{projectRoot}/nativewind-env.d.ts",
+              "{projectRoot}/**/*.ts",
+              "{projectRoot}/**/*.tsx",
+              "{projectRoot}/**/*.js",
+              "{projectRoot}/**/*.jsx",
+              "{projectRoot}/.expo/types/**/*.ts",
+              "{projectRoot}/expo-env.d.ts",
+              "!{projectRoot}/**/*.test.ts",
+              "!{projectRoot}/**/*.spec.ts",
+              "!{projectRoot}/**/*.test.tsx",
+              "!{projectRoot}/**/*.spec.tsx",
+              "!{projectRoot}/**/*.test.js",
+              "!{projectRoot}/**/*.spec.js",
+              "!{projectRoot}/**/*.test.jsx",
+              "!{projectRoot}/**/*.spec.jsx",
+              "!{projectRoot}/src/test-setup.ts",
               "^production"
             ],
             "outputs": [
@@ -1039,6 +1056,7 @@
               "{projectRoot}/**/*.d.mts.map",
               "{projectRoot}/tsconfig.tsbuildinfo",
               "{workspaceRoot}/dist/out-tsc/**/*.d.ts",
+              "{workspaceRoot}/dist/out-tsc/**/*.d.ts.map",
               "{workspaceRoot}/dist/out-tsc/tsconfig.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -43553,5 +43571,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1765628632299
+  "computedAt": 1765795017726
 }

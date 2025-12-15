@@ -87,90 +87,111 @@
   ],
   "fileMap": {
     "projectFileMap": {
-      "shared-types": [
+      "shared-stores": [
         {
-          "file": "libs/shared/types/project.json",
-          "hash": "4838114881068116981"
+          "file": "libs/shared/stores/project.json",
+          "hash": "13951266066426948765"
         },
         {
-          "file": "libs/shared/types/src/index.ts",
-          "hash": "12079999655608862087"
+          "file": "libs/shared/stores/src/index.ts",
+          "hash": "3534894412741089783"
         },
         {
-          "file": "libs/shared/types/src/types.ts",
-          "hash": "16531293282290653947"
+          "file": "libs/shared/stores/src/stores.ts",
+          "hash": "7898340986470788",
+          "deps": [
+            "npm:zustand"
+          ]
         },
         {
-          "file": "libs/shared/types/tsconfig.json",
-          "hash": "11217544556497749186"
+          "file": "libs/shared/stores/tsconfig.json",
+          "hash": "5038582023651900826"
         },
         {
-          "file": "libs/shared/types/tsconfig.lib.json",
-          "hash": "6411213428813628104"
+          "file": "libs/shared/stores/tsconfig.lib.json",
+          "hash": "7987555445284058786"
+        }
+      ],
+      "shared-query": [
+        {
+          "file": "libs/shared/query/project.json",
+          "hash": "16641446148279256012"
+        },
+        {
+          "file": "libs/shared/query/src/hooks.ts",
+          "hash": "14855922898783900"
+        },
+        {
+          "file": "libs/shared/query/src/index.ts",
+          "hash": "14018025303967305079"
+        },
+        {
+          "file": "libs/shared/query/src/query-client.ts",
+          "hash": "7162016117493105715",
+          "deps": [
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "libs/shared/query/tsconfig.json",
+          "hash": "5038582023651900826"
+        },
+        {
+          "file": "libs/shared/query/tsconfig.lib.json",
+          "hash": "5040293351321327388"
         }
       ],
       "shared-schemas": [
         {
           "file": "libs/shared/schemas/project.json",
-          "hash": "14047290542911145052"
+          "hash": "16606207250731750024"
         },
         {
           "file": "libs/shared/schemas/src/index.ts",
-          "hash": "10372190521738314827"
+          "hash": "91490120227403527"
         },
         {
           "file": "libs/shared/schemas/src/schemas.ts",
-          "hash": "14320591037072891169",
+          "hash": "11593421044580461035",
           "deps": [
             "npm:zod"
           ]
         },
         {
           "file": "libs/shared/schemas/tsconfig.json",
-          "hash": "11217544556497749186"
+          "hash": "5038582023651900826"
         },
         {
           "file": "libs/shared/schemas/tsconfig.lib.json",
-          "hash": "6411213428813628104"
+          "hash": "11596439595430298983"
         }
       ],
-      "web-e2e": [
+      "shared-types": [
         {
-          "file": "apps/web-e2e/eslint.config.mjs",
-          "hash": "1172734138943286526",
-          "deps": [
-            "npm:eslint-plugin-playwright"
-          ]
+          "file": "libs/shared/types/project.json",
+          "hash": "16604756709234869613"
         },
         {
-          "file": "apps/web-e2e/playwright.config.ts",
-          "hash": "3014261020544714599",
-          "deps": [
-            "npm:@playwright/test",
-            "npm:@nx/playwright",
-            "npm:@nx/devkit"
-          ]
+          "file": "libs/shared/types/src/index.ts",
+          "hash": "4367482853312510899"
         },
         {
-          "file": "apps/web-e2e/project.json",
-          "hash": "236892884893949848"
+          "file": "libs/shared/types/src/types.ts",
+          "hash": "18427411000695679074"
         },
         {
-          "file": "apps/web-e2e/src/example.spec.ts",
-          "hash": "16019101014373124625",
-          "deps": [
-            "npm:@playwright/test"
-          ]
+          "file": "libs/shared/types/tsconfig.json",
+          "hash": "5038582023651900826"
         },
         {
-          "file": "apps/web-e2e/tsconfig.json",
-          "hash": "18107275616570252607"
+          "file": "libs/shared/types/tsconfig.lib.json",
+          "hash": "11596439595430298983"
         }
       ],
       "shared-utils": [
         {
           "file": "libs/shared/utils/project.json",
-          "hash": "15604412616762709418"
+          "hash": "14163677290619208905"
         },
         {
           "file": "libs/shared/utils/src/index.ts",
@@ -178,19 +199,19 @@
         },
         {
           "file": "libs/shared/utils/src/team-data.ts",
-          "hash": "3972638565102942545"
+          "hash": "10172327404960509632"
         },
         {
           "file": "libs/shared/utils/src/utils.ts",
-          "hash": "11339043478341588172"
+          "hash": "7463119896200221363"
         },
         {
           "file": "libs/shared/utils/tsconfig.json",
-          "hash": "11217544556497749186"
+          "hash": "5038582023651900826"
         },
         {
           "file": "libs/shared/utils/tsconfig.lib.json",
-          "hash": "6411213428813628104"
+          "hash": "11596439595430298983"
         }
       ],
       "web": [
@@ -243,7 +264,7 @@
         },
         {
           "file": "apps/web/src/app/routes.tsx",
-          "hash": "2932637055675019394",
+          "hash": "16431656874393932035",
           "deps": [
             "npm:react-router"
           ]
@@ -270,7 +291,7 @@
         },
         {
           "file": "apps/web/src/components/Navigation.tsx",
-          "hash": "1676209077196985985",
+          "hash": "13404278381001115153",
           "deps": [
             "npm:react",
             "npm:react-router"
@@ -278,7 +299,7 @@
         },
         {
           "file": "apps/web/src/components/TakeActionModal.tsx",
-          "hash": "13464190553363034397",
+          "hash": "16167659073315857474",
           "deps": [
             "npm:react"
           ]
@@ -325,6 +346,39 @@
           ]
         }
       ],
+      "web-e2e": [
+        {
+          "file": "apps/web-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526",
+          "deps": [
+            "npm:eslint-plugin-playwright"
+          ]
+        },
+        {
+          "file": "apps/web-e2e/playwright.config.ts",
+          "hash": "3014261020544714599",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/web-e2e/project.json",
+          "hash": "236892884893949848"
+        },
+        {
+          "file": "apps/web-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/web-e2e/tsconfig.json",
+          "hash": "18107275616570252607"
+        }
+      ],
       "mobile": [
         {
           "file": "apps/mobile/.babelrc.js",
@@ -360,7 +414,7 @@
         },
         {
           "file": "apps/mobile/global.css",
-          "hash": "8997952570524310529"
+          "hash": "4943235577295796855"
         },
         {
           "file": "apps/mobile/index.js",
@@ -382,7 +436,7 @@
         },
         {
           "file": "apps/mobile/nativewind-env.d.ts",
-          "hash": "13164267449336880298"
+          "hash": "10583780834511181964"
         },
         {
           "file": "apps/mobile/package.json",
@@ -446,7 +500,7 @@
         },
         {
           "file": "apps/mobile/src/components/TakeActionModal.tsx",
-          "hash": "16444536810782020150",
+          "hash": "14252961445892410199",
           "deps": [
             "npm:react",
             "npm:react-native",
@@ -455,7 +509,7 @@
         },
         {
           "file": "apps/mobile/tailwind.config.js",
-          "hash": "11088893834594492498",
+          "hash": "5246036610357596168",
           "deps": [
             "npm:nativewind"
           ]
@@ -468,66 +522,20 @@
           "file": "apps/mobile/tsconfig.json",
           "hash": "4599041753810548382"
         }
-      ],
-      "shared-stores": [
-        {
-          "file": "libs/shared/stores/project.json",
-          "hash": "17095545465493569604"
-        },
-        {
-          "file": "libs/shared/stores/src/index.ts",
-          "hash": "15682336841641745961"
-        },
-        {
-          "file": "libs/shared/stores/src/stores.ts",
-          "hash": "13306189933821979076",
-          "deps": [
-            "npm:zustand"
-          ]
-        },
-        {
-          "file": "libs/shared/stores/tsconfig.json",
-          "hash": "11217544556497749186"
-        },
-        {
-          "file": "libs/shared/stores/tsconfig.lib.json",
-          "hash": "7987555445284058786"
-        }
-      ],
-      "shared-query": [
-        {
-          "file": "libs/shared/query/project.json",
-          "hash": "8632359513684775199"
-        },
-        {
-          "file": "libs/shared/query/src/hooks.ts",
-          "hash": "16626690650076636521"
-        },
-        {
-          "file": "libs/shared/query/src/index.ts",
-          "hash": "14486530504241403825"
-        },
-        {
-          "file": "libs/shared/query/src/query-client.ts",
-          "hash": "13141822903938031664",
-          "deps": [
-            "npm:@tanstack/react-query"
-          ]
-        },
-        {
-          "file": "libs/shared/query/tsconfig.json",
-          "hash": "11217544556497749186"
-        },
-        {
-          "file": "libs/shared/query/tsconfig.lib.json",
-          "hash": "5040293351321327388"
-        }
       ]
     },
     "nonProjectFiles": [
       {
+        "file": ".DS_Store",
+        "hash": "12865974457413204683"
+      },
+      {
         "file": ".gitignore",
         "hash": "5804173832071446087"
+      },
+      {
+        "file": ".nx/.DS_Store",
+        "hash": "324350817484055265"
       },
       {
         "file": ".prettierignore",
@@ -546,6 +554,10 @@
         "hash": "5607913002237393158"
       },
       {
+        "file": "apps/.DS_Store",
+        "hash": "15607465358482237241"
+      },
+      {
         "file": "babel.config.json",
         "hash": "5546405625092116747"
       },
@@ -558,8 +570,16 @@
         "hash": "7058689138586344457"
       },
       {
+        "file": "libs/.DS_Store",
+        "hash": "2150699038211814542"
+      },
+      {
+        "file": "libs/shared/.DS_Store",
+        "hash": "18354952135389523686"
+      },
+      {
         "file": "nx.json",
-        "hash": "17731461625023188313"
+        "hash": "7338835239055123360"
       },
       {
         "file": "package-lock.json",
@@ -575,7 +595,7 @@
       },
       {
         "file": "tsconfig.base.json",
-        "hash": "17501709370142073707"
+        "hash": "18197724000867903017"
       },
       {
         "file": "vitest.workspace.ts",

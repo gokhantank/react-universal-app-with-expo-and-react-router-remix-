@@ -74,7 +74,13 @@
                                                                                                                                                   "targetsCache": {
                                                                                                                                                     "targetsCache": {
                                                                                                                                                       "targetsCache": {
-                                                                                                                                                        "targetsCache": {}
+                                                                                                                                                        "targetsCache": {
+                                                                                                                                                          "targetsCache": {
+                                                                                                                                                            "targetsCache": {
+                                                                                                                                                              "targetsCache": {}
+                                                                                                                                                            }
+                                                                                                                                                          }
+                                                                                                                                                        }
                                                                                                                                                       }
                                                                                                                                                     }
                                                                                                                                                   }
@@ -90,7 +96,253 @@
                                                                                                                               }
                                                                                                                             }
                                                                                                                           }
+                                                                                                                        },
+                                                                                                                        "7020999681600487893": {
+                                                                                                                          "start": {
+                                                                                                                            "executor": "@nx/expo:start",
+                                                                                                                            "continuous": true
+                                                                                                                          },
+                                                                                                                          "serve": {
+                                                                                                                            "command": "expo start --web",
+                                                                                                                            "continuous": true,
+                                                                                                                            "options": {
+                                                                                                                              "cwd": "apps/mobile",
+                                                                                                                              "args": [
+                                                                                                                                "--clear"
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          },
+                                                                                                                          "run-ios": {
+                                                                                                                            "command": "expo run:ios",
+                                                                                                                            "continuous": true,
+                                                                                                                            "options": {
+                                                                                                                              "cwd": "apps/mobile"
+                                                                                                                            }
+                                                                                                                          },
+                                                                                                                          "run-android": {
+                                                                                                                            "command": "expo run:android",
+                                                                                                                            "continuous": true,
+                                                                                                                            "options": {
+                                                                                                                              "cwd": "apps/mobile"
+                                                                                                                            }
+                                                                                                                          },
+                                                                                                                          "export": {
+                                                                                                                            "command": "expo export",
+                                                                                                                            "options": {
+                                                                                                                              "cwd": "apps/mobile",
+                                                                                                                              "args": [
+                                                                                                                                "--clear"
+                                                                                                                              ]
+                                                                                                                            },
+                                                                                                                            "cache": true,
+                                                                                                                            "dependsOn": [
+                                                                                                                              "^export"
+                                                                                                                            ],
+                                                                                                                            "inputs": [
+                                                                                                                              "default",
+                                                                                                                              "^production",
+                                                                                                                              {
+                                                                                                                                "externalDependencies": [
+                                                                                                                                  "expo"
+                                                                                                                                ]
+                                                                                                                              }
+                                                                                                                            ],
+                                                                                                                            "outputs": [
+                                                                                                                              "{workspaceRoot}/apps/mobile/dist"
+                                                                                                                            ]
+                                                                                                                          },
+                                                                                                                          "install": {
+                                                                                                                            "executor": "@nx/expo:install"
+                                                                                                                          },
+                                                                                                                          "prebuild": {
+                                                                                                                            "executor": "@nx/expo:prebuild"
+                                                                                                                          },
+                                                                                                                          "build": {
+                                                                                                                            "executor": "@nx/expo:build"
+                                                                                                                          },
+                                                                                                                          "submit": {
+                                                                                                                            "command": "eas submit",
+                                                                                                                            "options": {
+                                                                                                                              "cwd": "apps/mobile"
+                                                                                                                            }
+                                                                                                                          },
+                                                                                                                          "build-deps": {
+                                                                                                                            "dependsOn": [
+                                                                                                                              "^build"
+                                                                                                                            ]
+                                                                                                                          },
+                                                                                                                          "watch-deps": {
+                                                                                                                            "continuous": true,
+                                                                                                                            "dependsOn": [
+                                                                                                                              "build-deps"
+                                                                                                                            ],
+                                                                                                                            "command": "npx nx watch --projects mobile --includeDependentProjects -- npx nx build-deps mobile"
+                                                                                                                          }
                                                                                                                         }
+                                                                                                                      },
+                                                                                                                      "7020999681600487893": {
+                                                                                                                        "start": {
+                                                                                                                          "executor": "@nx/expo:start",
+                                                                                                                          "continuous": true
+                                                                                                                        },
+                                                                                                                        "serve": {
+                                                                                                                          "command": "expo start --web",
+                                                                                                                          "continuous": true,
+                                                                                                                          "options": {
+                                                                                                                            "cwd": "apps/mobile",
+                                                                                                                            "args": [
+                                                                                                                              "--clear"
+                                                                                                                            ]
+                                                                                                                          }
+                                                                                                                        },
+                                                                                                                        "run-ios": {
+                                                                                                                          "command": "expo run:ios",
+                                                                                                                          "continuous": true,
+                                                                                                                          "options": {
+                                                                                                                            "cwd": "apps/mobile"
+                                                                                                                          }
+                                                                                                                        },
+                                                                                                                        "run-android": {
+                                                                                                                          "command": "expo run:android",
+                                                                                                                          "continuous": true,
+                                                                                                                          "options": {
+                                                                                                                            "cwd": "apps/mobile"
+                                                                                                                          }
+                                                                                                                        },
+                                                                                                                        "export": {
+                                                                                                                          "command": "expo export",
+                                                                                                                          "options": {
+                                                                                                                            "cwd": "apps/mobile",
+                                                                                                                            "args": [
+                                                                                                                              "--clear"
+                                                                                                                            ]
+                                                                                                                          },
+                                                                                                                          "cache": true,
+                                                                                                                          "dependsOn": [
+                                                                                                                            "^export"
+                                                                                                                          ],
+                                                                                                                          "inputs": [
+                                                                                                                            "default",
+                                                                                                                            "^production",
+                                                                                                                            {
+                                                                                                                              "externalDependencies": [
+                                                                                                                                "expo"
+                                                                                                                              ]
+                                                                                                                            }
+                                                                                                                          ],
+                                                                                                                          "outputs": [
+                                                                                                                            "{workspaceRoot}/apps/mobile/dist"
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        "install": {
+                                                                                                                          "executor": "@nx/expo:install"
+                                                                                                                        },
+                                                                                                                        "prebuild": {
+                                                                                                                          "executor": "@nx/expo:prebuild"
+                                                                                                                        },
+                                                                                                                        "build": {
+                                                                                                                          "executor": "@nx/expo:build"
+                                                                                                                        },
+                                                                                                                        "submit": {
+                                                                                                                          "command": "eas submit",
+                                                                                                                          "options": {
+                                                                                                                            "cwd": "apps/mobile"
+                                                                                                                          }
+                                                                                                                        },
+                                                                                                                        "build-deps": {
+                                                                                                                          "dependsOn": [
+                                                                                                                            "^build"
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        "watch-deps": {
+                                                                                                                          "continuous": true,
+                                                                                                                          "dependsOn": [
+                                                                                                                            "build-deps"
+                                                                                                                          ],
+                                                                                                                          "command": "npx nx watch --projects mobile --includeDependentProjects -- npx nx build-deps mobile"
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    },
+                                                                                                                    "7020999681600487893": {
+                                                                                                                      "start": {
+                                                                                                                        "executor": "@nx/expo:start",
+                                                                                                                        "continuous": true
+                                                                                                                      },
+                                                                                                                      "serve": {
+                                                                                                                        "command": "expo start --web",
+                                                                                                                        "continuous": true,
+                                                                                                                        "options": {
+                                                                                                                          "cwd": "apps/mobile",
+                                                                                                                          "args": [
+                                                                                                                            "--clear"
+                                                                                                                          ]
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      "run-ios": {
+                                                                                                                        "command": "expo run:ios",
+                                                                                                                        "continuous": true,
+                                                                                                                        "options": {
+                                                                                                                          "cwd": "apps/mobile"
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      "run-android": {
+                                                                                                                        "command": "expo run:android",
+                                                                                                                        "continuous": true,
+                                                                                                                        "options": {
+                                                                                                                          "cwd": "apps/mobile"
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      "export": {
+                                                                                                                        "command": "expo export",
+                                                                                                                        "options": {
+                                                                                                                          "cwd": "apps/mobile",
+                                                                                                                          "args": [
+                                                                                                                            "--clear"
+                                                                                                                          ]
+                                                                                                                        },
+                                                                                                                        "cache": true,
+                                                                                                                        "dependsOn": [
+                                                                                                                          "^export"
+                                                                                                                        ],
+                                                                                                                        "inputs": [
+                                                                                                                          "default",
+                                                                                                                          "^production",
+                                                                                                                          {
+                                                                                                                            "externalDependencies": [
+                                                                                                                              "expo"
+                                                                                                                            ]
+                                                                                                                          }
+                                                                                                                        ],
+                                                                                                                        "outputs": [
+                                                                                                                          "{workspaceRoot}/apps/mobile/dist"
+                                                                                                                        ]
+                                                                                                                      },
+                                                                                                                      "install": {
+                                                                                                                        "executor": "@nx/expo:install"
+                                                                                                                      },
+                                                                                                                      "prebuild": {
+                                                                                                                        "executor": "@nx/expo:prebuild"
+                                                                                                                      },
+                                                                                                                      "build": {
+                                                                                                                        "executor": "@nx/expo:build"
+                                                                                                                      },
+                                                                                                                      "submit": {
+                                                                                                                        "command": "eas submit",
+                                                                                                                        "options": {
+                                                                                                                          "cwd": "apps/mobile"
+                                                                                                                        }
+                                                                                                                      },
+                                                                                                                      "build-deps": {
+                                                                                                                        "dependsOn": [
+                                                                                                                          "^build"
+                                                                                                                        ]
+                                                                                                                      },
+                                                                                                                      "watch-deps": {
+                                                                                                                        "continuous": true,
+                                                                                                                        "dependsOn": [
+                                                                                                                          "build-deps"
+                                                                                                                        ],
+                                                                                                                        "command": "npx nx watch --projects mobile --includeDependentProjects -- npx nx build-deps mobile"
                                                                                                                       }
                                                                                                                     }
                                                                                                                   },
@@ -3580,7 +3832,7 @@
                                   }
                                 }
                               },
-                              "7020999681600487893": {
+                              "5057617652417269109": {
                                 "start": {
                                   "executor": "@nx/expo:start",
                                   "continuous": true
@@ -3663,7 +3915,7 @@
                                 }
                               }
                             },
-                            "7020999681600487893": {
+                            "5057617652417269109": {
                               "start": {
                                 "executor": "@nx/expo:start",
                                 "continuous": true
@@ -3746,7 +3998,7 @@
                               }
                             }
                           },
-                          "7020999681600487893": {
+                          "7346351153088500286": {
                             "start": {
                               "executor": "@nx/expo:start",
                               "continuous": true
@@ -3829,7 +4081,7 @@
                             }
                           }
                         },
-                        "5057617652417269109": {
+                        "2321086230661066243": {
                           "start": {
                             "executor": "@nx/expo:start",
                             "continuous": true
@@ -3912,7 +4164,7 @@
                           }
                         }
                       },
-                      "5057617652417269109": {
+                      "2321086230661066243": {
                         "start": {
                           "executor": "@nx/expo:start",
                           "continuous": true
@@ -3995,7 +4247,7 @@
                         }
                       }
                     },
-                    "7346351153088500286": {
+                    "1541273663205017831": {
                       "start": {
                         "executor": "@nx/expo:start",
                         "continuous": true
@@ -4078,7 +4330,7 @@
                       }
                     }
                   },
-                  "2321086230661066243": {
+                  "6368749557084540095": {
                     "start": {
                       "executor": "@nx/expo:start",
                       "continuous": true
@@ -4161,7 +4413,7 @@
                     }
                   }
                 },
-                "2321086230661066243": {
+                "6368749557084540095": {
                   "start": {
                     "executor": "@nx/expo:start",
                     "continuous": true
@@ -4244,7 +4496,7 @@
                   }
                 }
               },
-              "1541273663205017831": {
+              "15667100886251120377": {
                 "start": {
                   "executor": "@nx/expo:start",
                   "continuous": true
@@ -4327,7 +4579,7 @@
                 }
               }
             },
-            "6368749557084540095": {
+            "10751537687952566332": {
               "start": {
                 "executor": "@nx/expo:start",
                 "continuous": true
@@ -4410,7 +4662,7 @@
               }
             }
           },
-          "6368749557084540095": {
+          "6565603433655888391": {
             "start": {
               "executor": "@nx/expo:start",
               "continuous": true
@@ -4493,7 +4745,7 @@
             }
           }
         },
-        "15667100886251120377": {
+        "5746307361290396098": {
           "start": {
             "executor": "@nx/expo:start",
             "continuous": true
@@ -4576,7 +4828,7 @@
           }
         }
       },
-      "10751537687952566332": {
+      "5746307361290396098": {
         "start": {
           "executor": "@nx/expo:start",
           "continuous": true
@@ -4659,7 +4911,7 @@
         }
       }
     },
-    "6565603433655888391": {
+    "5746307361290396098": {
       "start": {
         "executor": "@nx/expo:start",
         "continuous": true

@@ -16,3 +16,4 @@ export const teamSchema = z.object({
 export type User = z.infer<typeof userSchema>;
 export type Team = z.infer<typeof teamSchema>;
 
+
